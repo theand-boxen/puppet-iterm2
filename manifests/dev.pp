@@ -9,9 +9,9 @@
 #   class { 'iterm2::dev':
 #     version => '20140421'
 #   }
-class iterm2::dev($version = '20141103') {
+class iterm2::dev($version = '20151111') {
   package { 'iTerm':
-    source   => "https://iterm2.com/downloads/beta/iTerm2-2_0_0_${version}.zip",
+    source   => "https://iterm2.com/downloads/beta/iTerm2-2_9_${version}.zip",
     provider => 'compressed_app'
   }
 }
