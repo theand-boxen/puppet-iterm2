@@ -12,7 +12,7 @@
 #
 class iterm2::stable (
   $ensure  = 'present',
-  $version ='2_1_1'
+  $version ='2_1_4'
 ) {
   package { 'iTerm':
     ensure   => $ensure,
